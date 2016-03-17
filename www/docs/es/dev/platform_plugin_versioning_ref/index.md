@@ -50,10 +50,10 @@ Después de ejecutar el comando anterior, el archivo config.xml resultante se pa
 
 Algunos ejemplos:
 
-  * **'plataforma Córdoba añadir android--guardar'** => recupera la versión fijada de la plataforma android, agrega al proyecto y luego actualiza el archivo config.xml.
-  * **'plataforma Córdoba añadir android@3.7.0--guardar'** => recupera la plataforma android, versión 3.7.0 de MNP, agrega al proyecto y actualizaciones config.xml.
-  * **'plataforma Córdoba añadir android @https://github.com/apache/cordova-android.git--guardar'** => clones el repositorio especificado git cordova-android, agrega la plataforma android al proyecto, entonces actualiza el archivo config.xml y apunta su versión git-dirección url especificada.
-  * **'plataforma Córdoba Añadir C:/ruta/a/android/plataforma, guardar'** => recupera la plataforma android en el directorio especificado, lo añade al proyecto, luego actualizaciones config.xml y punto al directorio.
+  * **'cordova platform update android --save'** => recupera la versión fijada de la plataforma android, agrega al proyecto y luego actualiza el archivo config.xml.
+  * **'cordova platform update android@3.8.0 --save'** => recupera la plataforma android, versión 3.7.0 de MNP, agrega al proyecto y actualizaciones config.xml.
+  * **'cordova platform update /path/to/android/platform --save'** => clones el repositorio especificado git cordova-android, agrega la plataforma android al proyecto, entonces actualiza el archivo config.xml y apunta su versión git-dirección url especificada.
+  * **'cordova platform remove android --save'** => recupera la plataforma android en el directorio especificado, lo añade al proyecto, luego actualizaciones config.xml y punto al directorio.
 
 ### Masa de ahorro plataformas sobre un proyecto existente
 
